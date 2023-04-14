@@ -34,9 +34,9 @@
                     jcr:title="Content Image"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
-                    disableLazyLoading="false"
                     allowUpload="false"
                     altValueFromDAM="true"
+                    disableLazyLoading="false"
                     displayPopupTitle="true"
                     isDecorative="false"
                     jpegQuality="{Long}85"
@@ -353,8 +353,7 @@
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[wknd-spa-react.react]"
                     isRoot="{Boolean}true"
-                    structureDepth="3"
-                />
+                    structureDepth="3"/>
             </spa>
         </components>
     </wknd-spa-react>
@@ -364,13 +363,15 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <spa-default
                         jcr:description="Includes only SPA-Enabled components."
+                        jcr:lastModified="{Date}2023-04-14T20:37:56.570+05:30"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SPA Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd-spa-react/components/text]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND SPA React - Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </spa-default>
-                    </responsivegrid>
+                </responsivegrid>
             </components>
         </foundation>
     </wcm>
