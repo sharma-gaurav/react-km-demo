@@ -257,5 +257,6 @@ dist
 .svelte-kit
 
 node/
+clientlib-react/
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,intellij+all,adobe
