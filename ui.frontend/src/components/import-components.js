@@ -18,6 +18,7 @@ import withAsyncImport from "../utils/withAsyncImport";
 import './Page/Page';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';
+import "./BlogTitle/BlogTitle";
 
 import './CustomBanner/CustomBanner';
 
