@@ -661,8 +661,7 @@ Bundle-DocURL:
             <dependency>
                 <groupId>com.adobe.aem</groupId>
                 <artifactId>uber-jar</artifactId>
-                <version>6.5.5</version>
-                <classifier>apis</classifier>
+                <version>6.5.15</version>
                 <scope>provided</scope>
             </dependency>
             <!-- Apache Sling Dependencies -->
