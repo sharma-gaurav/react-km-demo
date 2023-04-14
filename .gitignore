@@ -116,4 +116,6 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
+node_modules/
+
 # End of https://www.toptal.com/developers/gitignore/api/maven,intellij+all,adobe
